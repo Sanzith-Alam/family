@@ -43,12 +43,20 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-blue-600 p-4 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center navbar-container">
+<<<<<<< HEAD
         <Link to="/" className="text-3xl font-bold hover:text-blue-200 transition-colors">
+=======
+        <Link to="/" className="text-2xl font-bold hover:text-blue-200 transition-colors">
+>>>>>>> ebde6a3fd391ca83fcde943cb06ecd953b78a058
           Mogol Bhuiyan Bari
         </Link>
 
         {/* Desktop Navigation - visible on md screens and up */}
+<<<<<<< HEAD
         <div className="hidden md:flex md:items-center text-2xl md:space-x-6">
+=======
+        <div className="hidden md:flex md:items-center md:space-x-6">
+>>>>>>> ebde6a3fd391ca83fcde943cb06ecd953b78a058
           <ul className="flex space-x-6 items-center">
             <NavItem to="/events" text="Events" />
             <NavItem to="/gallery" text="Gallery" />
