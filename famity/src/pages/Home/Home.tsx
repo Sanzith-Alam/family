@@ -1,25 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ebde6a3fd391ca83fcde943cb06ecd953b78a058
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-white font-serif antialiased text-gray-800">
       {/* Hero Section */}
-<<<<<<< HEAD
       <section className="relative   bg-cover bg-gradient-to-r from-orange-100 via-white to-orange-50 py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold text-orange-800 mb-6 leading-tight">
             Family Network
-=======
-      <section className="relative bg-gradient-to-r from-orange-100 via-white to-orange-50 py-20 px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-orange-800 mb-6 leading-tight">
-            The Johnson Family Network
->>>>>>> ebde6a3fd391ca83fcde943cb06ecd953b78a058
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto font-light">
             Stay connected with your loved ones through our family portal
