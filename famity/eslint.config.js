@@ -4,6 +4,9 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { globalIgnores } from 'eslint/config'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css'; // core swiper styles
+
 
 export default tseslint.config([
   globalIgnores(['dist']),
